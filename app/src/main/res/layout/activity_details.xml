@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".cropcalender.DetailsActivity">
+    <!-- <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/appbar"
+        app:titleTextColor="@android:color/white"
+        app:title="Details"
+        app:navigationIcon="@drawable/ic_outline_arrow_back_24"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp" />-->
+    <!-- MaterialToolbar topAppBar = findViewById(R.id.topAppBar);
+     setSupportActionBar(topAppBar);
+     getSupportActionBar().setDisplayHomeAsUpEnabled(true);-->
+    <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="3dp"
+            android:background="@drawable/horizontalstepbar">
+        </TextView>
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/categorystl">
+        </TextView>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="3dp"
+            android:background="@drawable/horizontalstepbar">
+        </TextView>
+
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="25dp"
+            android:background="@drawable/info" />
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="3dp"
+            android:background="@drawable/custom_progressbar">
+        </TextView>
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/datebw">
+        </TextView>
+
+
+    </LinearLayout>-->
+    <EditText
+        android:id="@+id/projecttitle_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Project Title"
+        android:textColorHint="@color/black"
+        />
+    <EditText
+        android:id="@+id/projectdescription_Edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Project Description"
+        android:textColorHint="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <Spinner
+            android:id="@+id/season_spinner"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="@drawable/spinner_background"
+            android:spinnerMode="dropdown"
+            />
+
+        <Spinner
+            android:id="@+id/types_of_crop_spinner"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="@drawable/spinner_background"
+           />
+
+
+        <Spinner
+            android:id="@+id/crop_name_spinner"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+
+            android:background="@drawable/spinner_background"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

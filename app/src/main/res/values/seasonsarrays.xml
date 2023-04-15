@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_seasons" />
+    <string-array name="seasons">
+        <item>Rabi</item>
+        <item>Kharif</item>
+        <item>Zaid</item>
+    </string-array>
+
+    <string-array name="In_Rabi">
+        <item>Cereals</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Legumes</item>
+    </string-array>
+    <string-array name="In_Kharif">
+        <item>Cereals</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Seed Plant</item>
+        <item>Medicinal</item>
+    </string-array>
+    <string-array name="In_zaid">
+        <item>Cereals</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Legumes</item>
+        <item>Cash Crops</item>
+    </string-array>
+<!--in Rabi types of -->
+    <string-array name="In_Rabi_vegetables">
+        <item>Fenugreek</item>
+        <item>Turnip</item>
+        <item>Garlic</item>
+        <item>Lettuce</item>
+        <item>Pea</item>
+        <item>Onion</item>
+        <item>Radish</item>
+        <item>Spinach</item>
+        <item>Sweet Potato</item>
+        <item>Tomato</item>
+    </string-array>
+    <string-array name="In_Rabi_Cereals">
+        <item>Barley</item>
+        <item>Bengal Gram</item>
+        <item>Rapeseed</item>
+        <item>Oat</item>
+        <item>Wheat</item>
+    </string-array>
+    <string-array name="In_Rabi_Fruits">
+        <item>orange</item>
+        <item>Almond</item>
+        <item>Banana</item>
+        <item>Ber</item>
+        <item>Date Palm</item>
+        <item>Grapes</item>
+        <item>Grapefruit</item>
+        <item>Kinnow</item>
+        <item>Mango</item>
+        <item>Mulberry</item>
+    </string-array>
+    <string-array name="In_Rabi_Legumes">
+        <item>Chickpea</item>
+        <item> Urd Bean</item>
+        <item>Kulthi Bean</item>
+        <item> Lobia (Cowpea)</item>
+        <item> Lentil</item>
+        <item> Mung Bean</item>
+        <item> Pigeon Pea</item>
+        <item> Toria</item>
+    </string-array>
+<!--    In Kharif-->
+    <string-array name="In_Kharif_Cereals">
+        <item>Jowar</item>
+        <item>Maize</item>
+        <item>Millets</item>
+        <item>Rice</item>
+    </string-array>
+    <string-array name="In_Kharif_vegetables">
+        <item>Bitter Guard (Karela)</item>
+        <item>Bottle Guard</item>
+        <item>Brinjal</item>
+        <item>Chilli</item>
+    </string-array>
+    <string-array name="In_Kharif_Fruits">
+        <item>Almond</item>
+        <item>Collard greens</item>
+        <item>Winter squash</item>
+        <item>Brussels sprouts</item>
+    </string-array>
+    <string-array name="In_Kharif_Legumes">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="In_Kharif_SeedPlants">
+        <item>Arhar (Tur)</item>
+        <item>Black</item>
+        <item>Cotton</item>
+        <item>Gram (Urd)</item>
+        <item>Cowpea (Chavala)</item>
+        <item>Green Gram(Moong)</item>
+        <item>Groundnut</item>
+        <item>Guar (Cluster Bean)</item>
+        <item>Moth Bean</item>
+        <item>Sesame (Til)</item>
+        <item>Soybean</item>
+        <item>Fennel (Saunf)</item>
+    </string-array>
+    <string-array name="In_Kharif_Medicinal">
+        <item>Ashwagandha</item>
+        <item>Tulsi</item>
+    </string-array>
+    <!--    In Zaid-->
+    <string-array name="In_Zaid_Cereals">
+        <item>Pearl Millet (Bajra)</item>
+        <item>Sorghum (Jowar)</item>
+
+    </string-array>
+    <string-array name="In_Zaid_vegetables">
+        <item>Watermelon</item>
+        <item>Muskmelon</item>
+        <item>Cucumber</item>
+        <item>Bitter</item>
+        <item>Gourd</item>
+        <item>pumpkin</item>
+        <item>Brinjal</item>
+    </string-array>
+    <string-array name="In_Zaid_Fruits">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="In_Zaid_Legumes">
+        <item>Mung Bean</item>
+        <item>Arhar (Pigeon Pea)</item>
+        <item>Masur (Lentil)</item>
+        <item>Gram Crop</item>
+    </string-array>
+    <string-array name="In_Zaid_SeedPlants">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="In_Zaid_CashCrops">
+        <item>Potato</item>
+        <item>Sunflower</item>
+        <item>Groundnut</item>
+        <item>Sugarcane</item>
+        <item>Tobacco</item>
+        <item>Jute</item>
+        <item>Cotton</item>
+    </string-array>
+
+</resources>

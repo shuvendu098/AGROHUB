@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/logintitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="Join as an Organization: Empower Your Team with Our Platform"
+        android:textColor="@color/purple_500"
+        android:textSize="28dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+
+    <Spinner
+        android:id="@+id/organizationTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/formborder"
+        android:layout_margin="5dp"
+        android:textColor="#FF9800"
+        android:padding="15dp"
+        android:entries="@array/organization_types"
+        android:prompt="@string/organization_type_prompt"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/organizationNameEditText"
+        android:background="@drawable/formborder"
+        android:hint="Organization Name"
+        android:textColorHint="@color/active"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:background="@drawable/formborder"
+        android:hint="Organization Mail Id"
+        android:textColorHint="@color/active"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_mail_outline_24"
+        android:drawablePadding="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/websiteUrlEditText"
+        android:background="@drawable/formborder"
+        android:hint="Organization Website"
+        android:textColorHint="@color/active"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/baseline_language_24"
+        android:drawablePadding="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameEditText"
+        android:background="@drawable/formborder"
+        android:hint="Name"
+        android:textColorHint="@color/btn"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactPersonPhoneEditText"
+        android:background="@drawable/formborder"
+        android:hint="Phone Number"
+        android:textColorHint="@color/active"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:drawablePadding="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordEditText"
+        android:background="@drawable/formborder"
+        android:hint="Password"
+        android:textColorHint="@color/active"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupButton"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:background="@color/btn"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/already_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Already have an account? Click Here"
+            android:textColor="@color/btn"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/organisationbg"/>
+
+</LinearLayout>
